@@ -1,0 +1,227 @@
+/* заголовок */
+.head {
+    position: relative;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+    width: 100%;
+    height: 100px;
+    background-color: #007765;
+    ;
+}
+
+
+/* контейнер логотипа */
+.logo {
+    height: 100px;
+    /* width: 100px; */
+
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    top: 0;
+    z-index: 21;
+    float: left;
+
+    /* padding-left: 48px; */
+    /* padding-right: 48px;  */
+    margin-left: 45px;
+
+}
+
+/* картинка логотипа */
+.logo_img {
+    height: 50px;
+    width: 50px;
+    padding-right: 20px;
+}
+
+/* пунк навигации */
+.navigation {
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    float: right;
+
+
+}
+
+/* пункт первой каритнки */
+.context_1 {
+    background: url(../img/image_01.png) center no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+
+.context_1_div {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.context_2 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.context_2_div {
+
+    height: auto;
+    width: 80%;
+
+    text-align: left;
+
+}
+
+
+.context_3 {
+    background: url(../img/image_2.png) center no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}
+
+.context_3_div {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+
+.context_4 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.context_4_div {
+
+    height: auto;
+    width: 80%;
+
+}
+
+.logo_2_img {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 0 10px 0 0;
+    /* Отступы вокруг картинки */
+    text-align: right;
+
+}
+
+.context_5 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+
+}
+
+.context_5_div {
+
+    height: auto;
+    width: 100%;
+}
+
+.team {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.team_member_card {
+    height: auto;
+    width: 25%;
+    margin: 20px;
+}
+
+
+.team_member_img {
+    height: 150px;
+    width: 150px;
+}
+
+.context_6 {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+}
+
+.context_6_div {
+
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.context_6_div > p {
+    font-size: 30px;
+    color: rgb(255, 248, 248);
+
+}
+
+
+
+
+
+
+/* настройки для шрифтов  */
+h3 {
+
+
+    font-size: 29px;
+    color: rgb(255, 248, 248);
+    padding-right: 20px;
+}
+
+h2 {
+    font-size: 64px;
+    color: rgb(255, 248, 248);
+    padding-right: 20px;
+}
+
+.team_member_card>h2 {
+
+    font-size: 32px;
+    color: #007765;
+    padding-right: 20px;
+}
+
+.team_member_card>p {
+
+    font-size: 18px;
+    font-style: italic;
+    padding-right: 20px;
+}
+
+
+h1 {
+
+    font-size: 64px;
+    color: #007765;
+    padding-right: 20px;
+
+    text-align: center;
+}
+
+p {
+    font-size: 32px;
+}
